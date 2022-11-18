@@ -8,7 +8,7 @@
   {
     "id": 2,
     "name": "Production",
-    "shortName": "prd",
+    "shortName": "prod",
     "sortOrder": 2
   },
   {
@@ -40,5 +40,11 @@
     "name": "UAT",
     "shortName": "uat",
     "sortOrder": 7
+  },
+  {
+    "id": 8,
+    "name": "Integration",
+    "shortName": "int",
+    "sortOrder": 1
   }
 ]

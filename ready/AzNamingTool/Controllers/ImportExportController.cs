@@ -26,11 +26,11 @@ namespace AzureNamingTool.Controllers
         /// <returns>json - JSON configuration file</returns>
         [HttpGet]
         [Route("[action]")]
-        public async Task<IActionResult> ExportConfiguration(bool includeAdmin = false)
+        public async Task<IActionResult> ExportConfiguration()
         {
             try
             {
-                serviceResponse = await ImportExportService.ExportConfig(includeAdmin);
+                serviceResponse = await ImportExportService.ExportConfig();
                 if (serviceResponse.Success)
                 {
                     return Ok(serviceResponse.ResponseObject);

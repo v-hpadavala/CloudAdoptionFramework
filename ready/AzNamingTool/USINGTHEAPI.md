@@ -65,7 +65,7 @@ The process is as follows:
 
 	Sample Generate Name Request
 		{
-		  "ResourceEnvironment": "prd",
+		  "ResourceEnvironment": "prod",
 		  "ResourceInstance": "2",
 		  "ResourceLocation": "eu",
 		  "ResourceProjAppSvc": "spa",

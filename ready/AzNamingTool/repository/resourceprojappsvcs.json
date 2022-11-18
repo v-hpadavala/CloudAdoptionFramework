@@ -1,1 +1,21 @@
-[{"id":4,"name":"Sample Project/App/Service","shortName":"spa","sortOrder":1}]
+[
+
+  {
+    "id": 6,
+    "name": "Legacy Recon",
+    "shortName": "lr",
+    "sortOrder": 1
+  },
+  {
+    "id": 7,
+    "name": "Cash Store Service",
+    "shortName": "css",
+    "sortOrder": 2
+  },
+  {
+    "id": 8,
+    "name": "Sample Project/App/Service",
+    "shortName": "spa",
+    "sortOrder": 3
+  }
+]

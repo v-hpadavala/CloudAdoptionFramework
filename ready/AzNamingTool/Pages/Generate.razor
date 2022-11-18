@@ -190,10 +190,11 @@
                                             <div class="card @theme.ThemeStyle mb-3">
                                                 <h5 class="card-header text-white bg-secondary">
                                                     @resourceComponent.DisplayName
-                                                    @if (selectedResourceTypeOptional.ToLower().Contains("instance"))
+                                                    @*@if (selectedResourceTypeOptional.ToLower().Contains("instance"))
                                                     {
                                                         @((MarkupString)optional)
-                                                    }
+                                                    }*@
+                                                    @((MarkupString)optional)
                                                 </h5>
                                                 <div class="card card-body @theme.ThemeStyle">
                                                     <InputText title="@resourceComponent.DisplayName" class="@GetControlStyle()" id="ri" ValueExpression="@(()=>selectedResourceInstance)"
@@ -601,17 +602,17 @@
                                 break;
 
                             case "ResourceInstance":
-                                if (selectedResourceInstance == null)
-                                {
-                                    boolFormDisabled = true;
-                                }
-                                else
-                                {
-                                    if (selectedResourceInstance == "")
-                                    {
-                                        boolFormDisabled = true;
-                                    }
-                                }
+                                //if (selectedResourceInstance == null)
+                                //{
+                                //    boolFormDisabled = true;
+                                //}
+                                //else
+                                //{
+                                //    if (selectedResourceInstance == "")
+                                //    {
+                                //        boolFormDisabled = true;
+                                //    }
+                                //}
                                 break;
                             case "ResourceLocation":
                                 if (selectedResourceLocation == null)
