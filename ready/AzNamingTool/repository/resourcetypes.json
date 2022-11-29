@@ -2,7 +2,7 @@
   {
     "id": 1,
     "resource": "AnalysisServices/servers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "as",
@@ -21,7 +21,7 @@
   {
     "id": 2,
     "resource": "ApiManagement/service",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apim",
@@ -40,7 +40,7 @@
   {
     "id": 3,
     "resource": "ApiManagement/service/apis",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apis",
@@ -59,7 +59,7 @@
   {
     "id": 4,
     "resource": "ApiManagement/service/apis/issues",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apii",
@@ -78,7 +78,7 @@
   {
     "id": 5,
     "resource": "ApiManagement/service/apis/issues/attachments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apiia",
@@ -97,7 +97,7 @@
   {
     "id": 6,
     "resource": "ApiManagement/service/apis/issues/comments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apiic",
@@ -116,7 +116,7 @@
   {
     "id": 7,
     "resource": "ApiManagement/service/apis/operations",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apio",
@@ -135,7 +135,7 @@
   {
     "id": 8,
     "resource": "ApiManagement/service/apis/operations/tags",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apiot",
@@ -154,7 +154,7 @@
   {
     "id": 9,
     "resource": "ApiManagement/service/apis/releases",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apir",
@@ -173,7 +173,7 @@
   {
     "id": 10,
     "resource": "ApiManagement/service/apis/schemas",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apis",
@@ -192,7 +192,7 @@
   {
     "id": 11,
     "resource": "ApiManagement/service/apis/tagDescriptions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apitd",
@@ -211,7 +211,7 @@
   {
     "id": 12,
     "resource": "ApiManagement/service/apis/tags",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apitg",
@@ -230,7 +230,7 @@
   {
     "id": 13,
     "resource": "ApiManagement/service/api-version-sets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apivs",
@@ -249,7 +249,7 @@
   {
     "id": 14,
     "resource": "ApiManagement/service/authorizationServers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apias",
@@ -268,7 +268,7 @@
   {
     "id": 15,
     "resource": "ApiManagement/service/backends",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apib",
@@ -287,7 +287,7 @@
   {
     "id": 16,
     "resource": "ApiManagement/service/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apic",
@@ -306,7 +306,7 @@
   {
     "id": 17,
     "resource": "ApiManagement/service/diagnostics",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apid",
@@ -325,7 +325,7 @@
   {
     "id": 18,
     "resource": "ApiManagement/service/groups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apig",
@@ -344,7 +344,7 @@
   {
     "id": 19,
     "resource": "ApiManagement/service/groups/users",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apigu",
@@ -363,7 +363,7 @@
   {
     "id": 20,
     "resource": "ApiManagement/service/identityProviders",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apiip",
@@ -382,7 +382,7 @@
   {
     "id": 21,
     "resource": "ApiManagement/service/loggers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apil",
@@ -401,7 +401,7 @@
   {
     "id": 22,
     "resource": "ApiManagement/service/notifications",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apin",
@@ -420,7 +420,7 @@
   {
     "id": 23,
     "resource": "ApiManagement/service/notifications/recipientEmails",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "recem",
@@ -439,7 +439,7 @@
   {
     "id": 24,
     "resource": "ApiManagement/service/openidConnectProviders",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apioi",
@@ -458,7 +458,7 @@
   {
     "id": 25,
     "resource": "ApiManagement/service/policies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apipo",
@@ -477,7 +477,7 @@
   {
     "id": 26,
     "resource": "ApiManagement/service/products",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apipr",
@@ -496,7 +496,7 @@
   {
     "id": 27,
     "resource": "ApiManagement/service/products/apis",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "api",
@@ -515,7 +515,7 @@
   {
     "id": 28,
     "resource": "ApiManagement/service/products/groups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "grp",
@@ -534,7 +534,7 @@
   {
     "id": 29,
     "resource": "ApiManagement/service/products/tags",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tag",
@@ -553,7 +553,7 @@
   {
     "id": 30,
     "resource": "ApiManagement/service/properties",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "prop",
@@ -572,7 +572,7 @@
   {
     "id": 31,
     "resource": "ApiManagement/service/subscriptions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "subsr",
@@ -591,7 +591,7 @@
   {
     "id": 32,
     "resource": "ApiManagement/service/tags",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tag",
@@ -610,7 +610,7 @@
   {
     "id": 33,
     "resource": "ApiManagement/service/templates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "temp",
@@ -629,7 +629,7 @@
   {
     "id": 34,
     "resource": "ApiManagement/service/users",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "user",
@@ -648,7 +648,7 @@
   {
     "id": 35,
     "resource": "AppConfiguration/configurationStores",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "appcs",
@@ -667,7 +667,7 @@
   {
     "id": 36,
     "resource": "Authorization/locks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "lock",
@@ -686,7 +686,7 @@
   {
     "id": 37,
     "resource": "Authorization/policyAssignments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Management Group Resource Name",
     "ShortName": "pas",
@@ -705,7 +705,7 @@
   {
     "id": 38,
     "resource": "Authorization/policyAssignments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Resoure Name",
     "ShortName": "pas",
@@ -724,7 +724,7 @@
   {
     "id": 39,
     "resource": "Authorization/policyAssignments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Display Name",
     "ShortName": "pas",
@@ -743,7 +743,7 @@
   {
     "id": 40,
     "resource": "Authorization/policyDefinitions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Resoure Name",
     "ShortName": "policy",
@@ -762,7 +762,7 @@
   {
     "id": 41,
     "resource": "Authorization/policyDefinitions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Display Name",
     "ShortName": "policy",
@@ -781,7 +781,7 @@
   {
     "id": 42,
     "resource": "Authorization/policySetDefinitions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Management Group Resource Name",
     "ShortName": "init",
@@ -800,7 +800,7 @@
   {
     "id": 43,
     "resource": "Authorization/policySetDefinitions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Resoure Name",
     "ShortName": "init",
@@ -819,7 +819,7 @@
   {
     "id": 44,
     "resource": "Authorization/policySetDefinitions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Display Name",
     "ShortName": "init",
@@ -838,7 +838,7 @@
   {
     "id": 45,
     "resource": "Automation/automationAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "aa",
@@ -857,7 +857,7 @@
   {
     "id": 46,
     "resource": "Automation/automationAccounts/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cert",
@@ -876,7 +876,7 @@
   {
     "id": 47,
     "resource": "Automation/automationAccounts/connections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "conn",
@@ -895,7 +895,7 @@
   {
     "id": 48,
     "resource": "Automation/automationAccounts/credentials",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cred",
@@ -914,7 +914,7 @@
   {
     "id": 49,
     "resource": "Automation/automationAccounts/runbooks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "runbk",
@@ -933,7 +933,7 @@
   {
     "id": 50,
     "resource": "Automation/automationAccounts/schedules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sched",
@@ -952,7 +952,7 @@
   {
     "id": 51,
     "resource": "Automation/automationAccounts/variables",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "var",
@@ -971,7 +971,7 @@
   {
     "id": 52,
     "resource": "Automation/automationAccounts/watchers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "watch",
@@ -990,7 +990,7 @@
   {
     "id": 53,
     "resource": "Automation/automationAccounts/webhooks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "wbhk",
@@ -1009,7 +1009,7 @@
   {
     "id": 54,
     "resource": "Batch/batchAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ba",
@@ -1028,7 +1028,7 @@
   {
     "id": 55,
     "resource": "Batch/batchAccounts/applications",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "appl",
@@ -1047,7 +1047,7 @@
   {
     "id": 56,
     "resource": "Batch/batchAccounts/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cert",
@@ -1066,7 +1066,7 @@
   {
     "id": 57,
     "resource": "Batch/batchAccounts/pools",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pool",
@@ -1085,7 +1085,7 @@
   {
     "id": 58,
     "resource": "Blockchain/blockchainMembers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "blchm",
@@ -1180,7 +1180,7 @@
   {
     "id": 63,
     "resource": "BotService/botServices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "botsvc",
@@ -1199,7 +1199,7 @@
   {
     "id": 64,
     "resource": "BotService/botServices/channels",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "chan",
@@ -1218,7 +1218,7 @@
   {
     "id": 65,
     "resource": "BotService/botServices/Connections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "conn",
@@ -1237,7 +1237,7 @@
   {
     "id": 66,
     "resource": "BotService/enterpriseChannels",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "botec",
@@ -1256,7 +1256,7 @@
   {
     "id": 67,
     "resource": "Cache/Redis",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "redis",
@@ -1275,7 +1275,7 @@
   {
     "id": 68,
     "resource": "Cache/Redis/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -1294,7 +1294,7 @@
   {
     "id": 69,
     "resource": "Cdn/profiles",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cdnp",
@@ -1313,7 +1313,7 @@
   {
     "id": 70,
     "resource": "Cdn/profiles/endpoints",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cdne",
@@ -1332,7 +1332,7 @@
   {
     "id": 71,
     "resource": "CertificateRegistration/certificateOrders",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cerco",
@@ -1351,7 +1351,7 @@
   {
     "id": 72,
     "resource": "CognitiveServices/accounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cog",
@@ -1408,7 +1408,7 @@
   {
     "id": 75,
     "resource": "Compute/diskEncryptionSets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "des",
@@ -1427,7 +1427,7 @@
   {
     "id": 76,
     "resource": "Compute/disks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "OS Disk",
     "ShortName": "osdisk",
@@ -1446,7 +1446,7 @@
   {
     "id": 77,
     "resource": "Compute/disks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Data Disk",
     "ShortName": "disk",
@@ -1465,7 +1465,7 @@
   {
     "id": 78,
     "resource": "Compute/galleries",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "gal",
@@ -1484,7 +1484,7 @@
   {
     "id": 79,
     "resource": "Compute/galleries/applications",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "app",
@@ -1503,7 +1503,7 @@
   {
     "id": 80,
     "resource": "Compute/galleries/applications/versions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "apver",
@@ -1522,7 +1522,7 @@
   {
     "id": 81,
     "resource": "Compute/galleries/images",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "gimg",
@@ -1541,7 +1541,7 @@
   {
     "id": 82,
     "resource": "Compute/galleries/images/versions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ver",
@@ -1560,7 +1560,7 @@
   {
     "id": 83,
     "resource": "Compute/images",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cimg",
@@ -1579,7 +1579,7 @@
   {
     "id": 84,
     "resource": "Compute/snapshots",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "",
     "ShortName": "snap",
@@ -1598,7 +1598,7 @@
   {
     "id": 85,
     "resource": "Compute/virtualMachines",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Linux",
     "ShortName": "vm",
@@ -1617,7 +1617,7 @@
   {
     "id": 86,
     "resource": "Compute/virtualMachines",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Windows",
     "ShortName": "vm",
@@ -1636,7 +1636,7 @@
   {
     "id": 87,
     "resource": "Compute/virtualMachineScaleSets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Linux",
     "ShortName": "vmss",
@@ -1655,7 +1655,7 @@
   {
     "id": 88,
     "resource": "Compute/virtualMachineScaleSets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Windows",
     "ShortName": "vmss",
@@ -1674,7 +1674,7 @@
   {
     "id": 89,
     "resource": "ContainerInstance/containerGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ci",
@@ -1693,7 +1693,7 @@
   {
     "id": 90,
     "resource": "ContainerRegistry/registries",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cr",
@@ -1712,7 +1712,7 @@
   {
     "id": 91,
     "resource": "ContainerRegistry/registries/buildTasks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "btsk",
@@ -1731,7 +1731,7 @@
   {
     "id": 92,
     "resource": "ContainerRegistry/registries/buildTasks/steps",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "step",
@@ -1750,7 +1750,7 @@
   {
     "id": 93,
     "resource": "ContainerRegistry/registries/replications",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rep",
@@ -1769,7 +1769,7 @@
   {
     "id": 94,
     "resource": "ContainerRegistry/registries/scopeMaps",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "scmap",
@@ -1788,7 +1788,7 @@
   {
     "id": 95,
     "resource": "ContainerRegistry/registries/tasks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "task",
@@ -1807,7 +1807,7 @@
   {
     "id": 96,
     "resource": "ContainerRegistry/registries/tokens",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tokn",
@@ -1826,7 +1826,7 @@
   {
     "id": 97,
     "resource": "ContainerRegistry/registries/webhooks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "webhk",
@@ -1845,7 +1845,7 @@
   {
     "id": 98,
     "resource": "ContainerService/managedClusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "aks",
@@ -1864,7 +1864,7 @@
   {
     "id": 99,
     "resource": "ContainerServiceopenShiftManagedClusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "osmc",
@@ -1883,7 +1883,7 @@
   {
     "id": 100,
     "resource": "CustomerInsights/hubs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cihub",
@@ -1902,7 +1902,7 @@
   {
     "id": 101,
     "resource": "CustomerInsights/hubs/authorizationPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "authp",
@@ -1921,7 +1921,7 @@
   {
     "id": 102,
     "resource": "CustomerInsights/hubs/connectors",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "conn",
@@ -1940,7 +1940,7 @@
   {
     "id": 103,
     "resource": "CustomerInsights/hubs/connectors/mappings",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "map",
@@ -1959,7 +1959,7 @@
   {
     "id": 104,
     "resource": "CustomerInsights/hubs/interactions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "int",
@@ -1978,7 +1978,7 @@
   {
     "id": 105,
     "resource": "CustomerInsights/hubs/kpi",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "kpi",
@@ -1997,7 +1997,7 @@
   {
     "id": 106,
     "resource": "CustomerInsights/hubs/links",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "link",
@@ -2016,7 +2016,7 @@
   {
     "id": 107,
     "resource": "CustomerInsights/hubs/predictions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pred",
@@ -2035,7 +2035,7 @@
   {
     "id": 108,
     "resource": "CustomerInsights/hubs/profiles",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "prof",
@@ -2054,7 +2054,7 @@
   {
     "id": 109,
     "resource": "CustomerInsights/hubs/relationshipLinks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rlink",
@@ -2073,7 +2073,7 @@
   {
     "id": 110,
     "resource": "CustomerInsights/hubs/relationships",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rel",
@@ -2092,7 +2092,7 @@
   {
     "id": 111,
     "resource": "CustomerInsights/hubs/roleAssignments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "role",
@@ -2111,7 +2111,7 @@
   {
     "id": 112,
     "resource": "CustomerInsights/hubs/views",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "view",
@@ -2130,7 +2130,7 @@
   {
     "id": 113,
     "resource": "CustomProviders/associations",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cpas",
@@ -2149,7 +2149,7 @@
   {
     "id": 114,
     "resource": "CustomProviders/resourceProviders",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cprep",
@@ -2168,7 +2168,7 @@
   {
     "id": 115,
     "resource": "DataBox/jobs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dbjob",
@@ -2187,7 +2187,7 @@
   {
     "id": 116,
     "resource": "Databricks/workspaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dbw",
@@ -2206,7 +2206,7 @@
   {
     "id": 117,
     "resource": "DataFactory/factories",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "adf",
@@ -2225,7 +2225,7 @@
   {
     "id": 118,
     "resource": "DataFactory/factories/dataflows",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "flow",
@@ -2244,7 +2244,7 @@
   {
     "id": 119,
     "resource": "DataFactory/factories/datasets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dset",
@@ -2263,7 +2263,7 @@
   {
     "id": 120,
     "resource": "DataFactory/factories/integrationRuntimes",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "run",
@@ -2282,7 +2282,7 @@
   {
     "id": 121,
     "resource": "DataFactory/factories/linkedservices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "lksvc",
@@ -2301,7 +2301,7 @@
   {
     "id": 122,
     "resource": "DataFactory/factories/pipelines",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pipe",
@@ -2320,7 +2320,7 @@
   {
     "id": 123,
     "resource": "DataFactory/factories/triggers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "trig",
@@ -2339,7 +2339,7 @@
   {
     "id": 124,
     "resource": "DataFactory/factories/triggers/rerunTriggers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rerun",
@@ -2358,7 +2358,7 @@
   {
     "id": 125,
     "resource": "DataLakeAnalytics/accounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dla",
@@ -2377,7 +2377,7 @@
   {
     "id": 126,
     "resource": "DataLakeAnalytics/accounts/computePolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cmpol",
@@ -2396,7 +2396,7 @@
   {
     "id": 127,
     "resource": "DataLakeAnalytics/accounts/dataLakeStoreAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dlsta",
@@ -2415,7 +2415,7 @@
   {
     "id": 128,
     "resource": "DataLakeAnalytics/accounts/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2434,7 +2434,7 @@
   {
     "id": 129,
     "resource": "DataLakeAnalytics/accounts/storageAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dlasa",
@@ -2453,7 +2453,7 @@
   {
     "id": 130,
     "resource": "DataLakeStore/accounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dls",
@@ -2472,7 +2472,7 @@
   {
     "id": 131,
     "resource": "DataLakeStore/accounts/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2491,7 +2491,7 @@
   {
     "id": 132,
     "resource": "DataLakeStore/accounts/virtualNetworkRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2510,7 +2510,7 @@
   {
     "id": 133,
     "resource": "DataMigration/services",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dms",
@@ -2529,7 +2529,7 @@
   {
     "id": 134,
     "resource": "DataMigration/services/projects",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "proj",
@@ -2548,7 +2548,7 @@
   {
     "id": 135,
     "resource": "DBforMariaDB/servers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mdbsv",
@@ -2567,7 +2567,7 @@
   {
     "id": 136,
     "resource": "DBforMariaDB/servers/databases",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mdbdb",
@@ -2586,7 +2586,7 @@
   {
     "id": 137,
     "resource": "DBforMariaDB/servers/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2605,7 +2605,7 @@
   {
     "id": 138,
     "resource": "DBforMariaDB/servers/virtualNetworkRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2624,7 +2624,7 @@
   {
     "id": 139,
     "resource": "DBforMySQL/servers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mysql",
@@ -2643,7 +2643,7 @@
   {
     "id": 140,
     "resource": "DBforMySQL/servers/databases",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "db",
@@ -2662,7 +2662,7 @@
   {
     "id": 141,
     "resource": "DBforMySQL/servers/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2681,7 +2681,7 @@
   {
     "id": 142,
     "resource": "DBforMySQL/servers/virtualNetworkRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2700,7 +2700,7 @@
   {
     "id": 143,
     "resource": "DBforPostgreSQL/servers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "psql",
@@ -2719,7 +2719,7 @@
   {
     "id": 144,
     "resource": "DBforPostgreSQL/servers/databases",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "db",
@@ -2738,7 +2738,7 @@
   {
     "id": 145,
     "resource": "DBforPostgreSQL/servers/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2757,7 +2757,7 @@
   {
     "id": 146,
     "resource": "DBforPostgreSQL/servers/virtualNetworkRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -2776,7 +2776,7 @@
   {
     "id": 147,
     "resource": "Devices/IotHubs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "iot",
@@ -2795,7 +2795,7 @@
   {
     "id": 148,
     "resource": "Devices/IotHubs/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cert",
@@ -2814,7 +2814,7 @@
   {
     "id": 149,
     "resource": "Devices/IotHubs/eventHubEndpoints/ConsumerGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "congp",
@@ -2833,7 +2833,7 @@
   {
     "id": 150,
     "resource": "Devices/provisioningServices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "provs",
@@ -2852,7 +2852,7 @@
   {
     "id": 151,
     "resource": "Devices/provisioningServices/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pcert",
@@ -2871,7 +2871,7 @@
   {
     "id": 152,
     "resource": "DevTestLab/labs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dtlab",
@@ -2890,7 +2890,7 @@
   {
     "id": 153,
     "resource": "DevTestLab/labs/customimages",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "img",
@@ -2909,7 +2909,7 @@
   {
     "id": 154,
     "resource": "DevTestLab/labs/formulas",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "form",
@@ -2928,7 +2928,7 @@
   {
     "id": 155,
     "resource": "DevTestLab/labs/virtualmachines",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Linux",
     "ShortName": "vm",
@@ -2947,7 +2947,7 @@
   {
     "id": 156,
     "resource": "DevTestLab/labs/virtualmachines",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "Windows",
     "ShortName": "vm",
@@ -2966,7 +2966,7 @@
   {
     "id": 157,
     "resource": "DocumentDB/databaseAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dbact",
@@ -3004,7 +3004,7 @@
   {
     "id": 159,
     "resource": "EventGrid/domains",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "evgd",
@@ -3023,7 +3023,7 @@
   {
     "id": 160,
     "resource": "EventGrid/domains/topics",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "evgt",
@@ -3042,7 +3042,7 @@
   {
     "id": 161,
     "resource": "EventGrid/eventSubscriptions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "evgs",
@@ -3061,7 +3061,7 @@
   {
     "id": 162,
     "resource": "EventGrid/topics",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "egtp",
@@ -3080,7 +3080,7 @@
   {
     "id": 163,
     "resource": "EventHub/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "evhcl",
@@ -3099,7 +3099,7 @@
   {
     "id": 164,
     "resource": "EventHub/namespaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "evhns",
@@ -3118,7 +3118,7 @@
   {
     "id": 165,
     "resource": "EventHub/namespaces/AuthorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -3137,7 +3137,7 @@
   {
     "id": 166,
     "resource": "EventHub/namespaces/disasterRecoveryConfigs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "drcfg",
@@ -3156,7 +3156,7 @@
   {
     "id": 167,
     "resource": "EventHub/namespaces/eventhubs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "evh",
@@ -3175,7 +3175,7 @@
   {
     "id": 168,
     "resource": "EventHub/namespaces/eventhubs/authorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -3194,7 +3194,7 @@
   {
     "id": 169,
     "resource": "EventHub/namespaces/eventhubs/consumergroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cgrp",
@@ -3213,7 +3213,7 @@
   {
     "id": 170,
     "resource": "HDInsight/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Spark Cluster",
     "ShortName": "mls",
@@ -3232,7 +3232,7 @@
   {
     "id": 171,
     "resource": "HDInsight/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Storm Cluster",
     "ShortName": "spark",
@@ -3251,7 +3251,7 @@
   {
     "id": 172,
     "resource": "HDInsight/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "ML Services Cluster",
     "ShortName": "storm",
@@ -3270,7 +3270,7 @@
   {
     "id": 173,
     "resource": "HDInsight/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Hadoop Cluster",
     "ShortName": "hadoop",
@@ -3289,7 +3289,7 @@
   {
     "id": 174,
     "resource": "HDInsight/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "HBase Cluster",
     "ShortName": "hbase",
@@ -3308,7 +3308,7 @@
   {
     "id": 175,
     "resource": "HDInsight/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Kafka Cluster",
     "ShortName": "kafka",
@@ -3346,7 +3346,7 @@
   {
     "id": 177,
     "resource": "ImportExport/jobs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "iejob",
@@ -3365,7 +3365,7 @@
   {
     "id": 178,
     "resource": "Insights/actionGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ag",
@@ -3384,7 +3384,7 @@
   {
     "id": 179,
     "resource": "Insights/activityLogAlerts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "inala",
@@ -3403,7 +3403,7 @@
   {
     "id": 180,
     "resource": "Insights/components",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "appi",
@@ -3422,7 +3422,7 @@
   {
     "id": 181,
     "resource": "Insights/metricAlerts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "inma",
@@ -3441,7 +3441,7 @@
   {
     "id": 182,
     "resource": "Insights/scheduledQueryRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "insqr",
@@ -3460,7 +3460,7 @@
   {
     "id": 183,
     "resource": "IoTCentral/IoTApps",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "iotapp",
@@ -3479,7 +3479,7 @@
   {
     "id": 184,
     "resource": "KeyVault/vaults",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "kv",
@@ -3498,7 +3498,7 @@
   {
     "id": 185,
     "resource": "KeyVault/vaults/secrets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "kvs",
@@ -3536,7 +3536,7 @@
   {
     "id": 187,
     "resource": "Kusto/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dec",
@@ -3555,7 +3555,7 @@
   {
     "id": 188,
     "resource": "Kusto/clusters/databases",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dedb",
@@ -3574,7 +3574,7 @@
   {
     "id": 189,
     "resource": "Kusto/clusters/databases/dataConnections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dcon",
@@ -3593,7 +3593,7 @@
   {
     "id": 190,
     "resource": "Kusto/clusters/databases/eventhubconnections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ehcon",
@@ -3612,7 +3612,7 @@
   {
     "id": 191,
     "resource": "Logic/integrationAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ia",
@@ -3631,7 +3631,7 @@
   {
     "id": 192,
     "resource": "Logic/integrationAccounts/assemblies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "assem",
@@ -3650,7 +3650,7 @@
   {
     "id": 193,
     "resource": "Logic/integrationAccounts/batchConfigurations",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "bconf",
@@ -3669,7 +3669,7 @@
   {
     "id": 194,
     "resource": "Logic/integrationAccounts/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "cert",
@@ -3688,7 +3688,7 @@
   {
     "id": 195,
     "resource": "Logic/integrationAccounts/maps",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "map",
@@ -3707,7 +3707,7 @@
   {
     "id": 196,
     "resource": "Logic/integrationAccounts/partners",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "part",
@@ -3726,7 +3726,7 @@
   {
     "id": 197,
     "resource": "Logic/integrationAccounts/rosettanetprocessconfigurations",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rpcnf",
@@ -3745,7 +3745,7 @@
   {
     "id": 198,
     "resource": "Logic/integrationAccounts/schemas",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "schem",
@@ -3764,7 +3764,7 @@
   {
     "id": 199,
     "resource": "Logic/integrationAccounts/sessions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ses",
@@ -3783,7 +3783,7 @@
   {
     "id": 200,
     "resource": "Logic/integrationServiceEnvironments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "lise",
@@ -3802,7 +3802,7 @@
   {
     "id": 201,
     "resource": "Logic/integrationServiceEnvironments/managedApis",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mapi",
@@ -3821,7 +3821,7 @@
   {
     "id": 202,
     "resource": "Logic/workflows",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "logic",
@@ -3840,7 +3840,7 @@
   {
     "id": 203,
     "resource": "MachineLearning/commitmentPlans",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mlcp",
@@ -3859,7 +3859,7 @@
   {
     "id": 204,
     "resource": "MachineLearning/webServices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mlweb",
@@ -3878,7 +3878,7 @@
   {
     "id": 205,
     "resource": "MachineLearning/workspaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mlws",
@@ -3897,7 +3897,7 @@
   {
     "id": 206,
     "resource": "MachineLearningServices/workspaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mlw",
@@ -3916,7 +3916,7 @@
   {
     "id": 207,
     "resource": "MachineLearningServices/workspaces/computes",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mlswc",
@@ -3935,7 +3935,7 @@
   {
     "id": 208,
     "resource": "ManagedIdentity/userAssignedIdentities",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "id",
@@ -3973,7 +3973,7 @@
   {
     "id": 210,
     "resource": "Maps/accounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "macc",
@@ -3992,7 +3992,7 @@
   {
     "id": 211,
     "resource": "Media/mediaservices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "mms",
@@ -4011,7 +4011,7 @@
   {
     "id": 212,
     "resource": "Media/mediaservices/liveEvents",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "lievt",
@@ -4030,7 +4030,7 @@
   {
     "id": 213,
     "resource": "Media/mediaservices/liveEvents/liveOutputs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "liout",
@@ -4049,7 +4049,7 @@
   {
     "id": 214,
     "resource": "Media/mediaservices/streamingEndpoints",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "strep",
@@ -4087,7 +4087,7 @@
   {
     "id": 216,
     "resource": "Network/applicationGateways",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "agw",
@@ -4106,7 +4106,7 @@
   {
     "id": 217,
     "resource": "Network/applicationSecurityGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "asg",
@@ -4125,7 +4125,7 @@
   {
     "id": 218,
     "resource": "Network/azureFirewalls",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "afw",
@@ -4144,7 +4144,7 @@
   {
     "id": 219,
     "resource": "Network/bastionHosts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "bas",
@@ -4163,7 +4163,7 @@
   {
     "id": 220,
     "resource": "Network/connections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "con",
@@ -4182,7 +4182,7 @@
   {
     "id": 221,
     "resource": "Network/dnsZones",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "dnsz",
@@ -4201,7 +4201,7 @@
   {
     "id": 222,
     "resource": "Network/expressRouteCircuits",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "erc",
@@ -4220,7 +4220,7 @@
   {
     "id": 223,
     "resource": "Network/firewallPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "waf",
@@ -4239,7 +4239,7 @@
   {
     "id": 224,
     "resource": "Network/firewallPolicies/ruleGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "wafrg",
@@ -4258,7 +4258,7 @@
   {
     "id": 225,
     "resource": "Network/frontDoors",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "fd",
@@ -4277,7 +4277,7 @@
   {
     "id": 226,
     "resource": "Network/frontdoorWebApplicationFirewallPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "fdfp",
@@ -4296,7 +4296,7 @@
   {
     "id": 227,
     "resource": "Network/loadBalancers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "internal",
     "ShortName": "lbi",
@@ -4315,7 +4315,7 @@
   {
     "id": 228,
     "resource": "Network/loadBalancers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "external",
     "ShortName": "lbe",
@@ -4334,7 +4334,7 @@
   {
     "id": 229,
     "resource": "Network/loadBalancers/inboundNatRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -4353,7 +4353,7 @@
   {
     "id": 230,
     "resource": "Network/localNetworkGateways",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "lgw",
@@ -4410,7 +4410,7 @@
   {
     "id": 233,
     "resource": "Network/networkSecurityGroups/securityRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "nsgsr",
@@ -4429,7 +4429,7 @@
   {
     "id": 234,
     "resource": "Network/networkWatchers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "nw",
@@ -4448,7 +4448,7 @@
   {
     "id": 235,
     "resource": "Network/privateDnsZones",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pdnsz",
@@ -4467,7 +4467,7 @@
   {
     "id": 236,
     "resource": "Network/privateDnsZones/virtualNetworkLinks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pdnsv",
@@ -4543,7 +4543,7 @@
   {
     "id": 240,
     "resource": "Network/routeFilters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rf",
@@ -4562,7 +4562,7 @@
   {
     "id": 241,
     "resource": "Network/routeFilters/routeFilterRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "nrfrr",
@@ -4600,7 +4600,7 @@
   {
     "id": 243,
     "resource": "Network/routeTables/routes",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "udr",
@@ -4619,7 +4619,7 @@
   {
     "id": 244,
     "resource": "Network/serviceEndpointPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "se",
@@ -4657,7 +4657,7 @@
   {
     "id": 246,
     "resource": "Network/virtualNetworkGateways",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "vgw",
@@ -4676,7 +4676,7 @@
   {
     "id": 247,
     "resource": "Network/virtualNetworks",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "vnet",
@@ -4695,7 +4695,7 @@
   {
     "id": 248,
     "resource": "Network/virtualnetworks/subnets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "snet",
@@ -4714,7 +4714,7 @@
   {
     "id": 249,
     "resource": "Network/virtualNetworks/virtualNetworkPeerings",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "peer",
@@ -4733,7 +4733,7 @@
   {
     "id": 250,
     "resource": "Network/virtualWans",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "vwan",
@@ -4752,7 +4752,7 @@
   {
     "id": 251,
     "resource": "Network/vpnGateways",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "vpng",
@@ -4771,7 +4771,7 @@
   {
     "id": 252,
     "resource": "Network/vpnGateways/vpnConnections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "vcn",
@@ -4790,7 +4790,7 @@
   {
     "id": 253,
     "resource": "Network/vpnSites",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "vpn",
@@ -4809,7 +4809,7 @@
   {
     "id": 254,
     "resource": "NotificationHubs/namespaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ntfns",
@@ -4828,7 +4828,7 @@
   {
     "id": 255,
     "resource": "NotificationHubs/namespaces/AuthorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -4847,7 +4847,7 @@
   {
     "id": 256,
     "resource": "NotificationHubs/namespaces/notificationHubs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ntf",
@@ -4866,7 +4866,7 @@
   {
     "id": 257,
     "resource": "NotificationHubs/namespaces/notificationHubs/AuthorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -4885,7 +4885,7 @@
   {
     "id": 258,
     "resource": "OperationalInsights/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "opic",
@@ -4904,7 +4904,7 @@
   {
     "id": 259,
     "resource": "OperationalInsights/workspaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "log",
@@ -4923,7 +4923,7 @@
   {
     "id": 260,
     "resource": "OperationsManagement/solutions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "opms",
@@ -4942,7 +4942,7 @@
   {
     "id": 261,
     "resource": "Portal/dashboards",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pdash",
@@ -4961,7 +4961,7 @@
   {
     "id": 262,
     "resource": "PowerBI/workspaceCollections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pbiwc",
@@ -4980,7 +4980,7 @@
   {
     "id": 263,
     "resource": "PowerBIDedicated/capacities",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "pbi",
@@ -5018,7 +5018,7 @@
   {
     "id": 265,
     "resource": "RecoveryServices/vaults",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rsv",
@@ -5037,7 +5037,7 @@
   {
     "id": 266,
     "resource": "RecoveryServices/vaults/backupPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rsvbp",
@@ -5056,7 +5056,7 @@
   {
     "id": 267,
     "resource": "Relay/namespaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rns",
@@ -5075,7 +5075,7 @@
   {
     "id": 268,
     "resource": "Relay/namespaces/AuthorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -5094,7 +5094,7 @@
   {
     "id": 269,
     "resource": "Relay/namespaces/HybridConnections",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "hycon",
@@ -5113,7 +5113,7 @@
   {
     "id": 270,
     "resource": "Relay/namespaces/HybridConnections/authorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -5132,7 +5132,7 @@
   {
     "id": 271,
     "resource": "Relay/namespaces/WcfRelays",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "wcfr",
@@ -5151,7 +5151,7 @@
   {
     "id": 272,
     "resource": "Relay/namespaces/WcfRelays/authorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "wcfra",
@@ -5170,7 +5170,7 @@
   {
     "id": 273,
     "resource": "Resources/deployments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "deloy",
@@ -5189,7 +5189,7 @@
   {
     "id": 274,
     "resource": "Resources/resourcegroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rg",
@@ -5208,7 +5208,7 @@
   {
     "id": 275,
     "resource": "Resources/tagNames",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rtn",
@@ -5227,7 +5227,7 @@
   {
     "id": 276,
     "resource": "Resources/tagNames/tagValues",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rtnv",
@@ -5246,7 +5246,7 @@
   {
     "id": 277,
     "resource": "Resources/templateSpecs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tspec",
@@ -5284,7 +5284,7 @@
   {
     "id": 279,
     "resource": "ServiceBus/namespaces",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sb",
@@ -5303,7 +5303,7 @@
   {
     "id": 280,
     "resource": "ServiceBus/namespaces/AuthorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -5322,7 +5322,7 @@
   {
     "id": 281,
     "resource": "ServiceBus/namespaces/disasterRecoveryConfigs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sbndc",
@@ -5341,7 +5341,7 @@
   {
     "id": 282,
     "resource": "ServiceBus/namespaces/migrationConfigurations",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "migc",
@@ -5360,7 +5360,7 @@
   {
     "id": 283,
     "resource": "ServiceBus/namespaces/queues",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sbq",
@@ -5379,7 +5379,7 @@
   {
     "id": 284,
     "resource": "ServiceBus/namespaces/queues/authorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -5398,7 +5398,7 @@
   {
     "id": 285,
     "resource": "ServiceBus/namespaces/topics",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sbt",
@@ -5417,7 +5417,7 @@
   {
     "id": 286,
     "resource": "ServiceBus/namespaces/topics/authorizationRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -5436,7 +5436,7 @@
   {
     "id": 287,
     "resource": "ServiceBus/namespaces/topics/subscriptions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tsub",
@@ -5455,7 +5455,7 @@
   {
     "id": 288,
     "resource": "ServiceBus/namespaces/topics/subscriptions/rules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "rule",
@@ -5474,7 +5474,7 @@
   {
     "id": 289,
     "resource": "ServiceFabric/clusters",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sf",
@@ -5493,7 +5493,7 @@
   {
     "id": 290,
     "resource": "SignalRService/signalR",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sigr",
@@ -5512,7 +5512,7 @@
   {
     "id": 291,
     "resource": "Sql/managedInstances",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqlmi",
@@ -5531,7 +5531,7 @@
   {
     "id": 292,
     "resource": "Sql/servers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Azure SQL Data Warehouse",
     "ShortName": "sqldw",
@@ -5550,7 +5550,7 @@
   {
     "id": 293,
     "resource": "Sql/servers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Azure SQL Database Server",
     "ShortName": "sql",
@@ -5569,7 +5569,7 @@
   {
     "id": 294,
     "resource": "Sql/servers/administrators",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqlsa",
@@ -5588,7 +5588,7 @@
   {
     "id": 295,
     "resource": "Sql/servers/databases",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqldb",
@@ -5607,7 +5607,7 @@
   {
     "id": 296,
     "resource": "Sql/servers/databases/syncGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqlsg",
@@ -5626,7 +5626,7 @@
   {
     "id": 297,
     "resource": "Sql/servers/elasticPools",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqlep",
@@ -5645,7 +5645,7 @@
   {
     "id": 298,
     "resource": "Sql/servers/failoverGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqlfg",
@@ -5664,7 +5664,7 @@
   {
     "id": 299,
     "resource": "Sql/servers/firewallRules",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sqlfw",
@@ -5683,7 +5683,7 @@
   {
     "id": 300,
     "resource": "Storage/blob",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sbl",
@@ -5702,7 +5702,7 @@
   {
     "id": 301,
     "resource": "Storage/queue",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "squ",
@@ -5721,7 +5721,7 @@
   {
     "id": 302,
     "resource": "Storage/storageAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "VM Storage Account",
     "ShortName": "stvm",
@@ -5740,7 +5740,7 @@
   {
     "id": 303,
     "resource": "Storage/storageAccounts",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "st",
@@ -5759,7 +5759,7 @@
   {
     "id": 304,
     "resource": "Storage/storageAccounts/blobServices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "stbl",
@@ -5778,7 +5778,7 @@
   {
     "id": 305,
     "resource": "Storage/storageAccounts/blobServices/containers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "stblc",
@@ -5797,7 +5797,7 @@
   {
     "id": 306,
     "resource": "Storage/storageAccounts/fileServices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "stfs",
@@ -5816,7 +5816,7 @@
   {
     "id": 307,
     "resource": "Storage/storageAccounts/fileServices/shares",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "stfss",
@@ -5835,7 +5835,7 @@
   {
     "id": 308,
     "resource": "Storage/storageAccounts/managementPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "stmp",
@@ -5854,7 +5854,7 @@
   {
     "id": 309,
     "resource": "Storage/table",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sta",
@@ -5873,7 +5873,7 @@
   {
     "id": 310,
     "resource": "StorageSync/storageSyncServices",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sss",
@@ -5892,7 +5892,7 @@
   {
     "id": 311,
     "resource": "StorageSync/storageSyncServices/syncGroups",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sgrp",
@@ -5911,7 +5911,7 @@
   {
     "id": 312,
     "resource": "StorSimple/managers",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "ssimp",
@@ -5949,7 +5949,7 @@
   {
     "id": 314,
     "resource": "StreamAnalytics/streamingjobs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sasj",
@@ -5968,7 +5968,7 @@
   {
     "id": 315,
     "resource": "StreamAnalytics/streamingjobs/functions",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sjf",
@@ -5987,7 +5987,7 @@
   {
     "id": 316,
     "resource": "StreamAnalytics/streamingjobs/inputs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sjin",
@@ -6006,7 +6006,7 @@
   {
     "id": 317,
     "resource": "StreamAnalytics/streamingjobs/outputs",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sjout",
@@ -6025,7 +6025,7 @@
   {
     "id": 318,
     "resource": "StreamAnalytics/streamingjobs/transformations",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "sjtrf",
@@ -6120,7 +6120,7 @@
   {
     "id": 323,
     "resource": "TimeSeriesInsights/environments",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tsi",
@@ -6139,7 +6139,7 @@
   {
     "id": 324,
     "resource": "TimeSeriesInsights/environments/accessPolicies",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tsiea",
@@ -6158,7 +6158,7 @@
   {
     "id": 325,
     "resource": "TimeSeriesInsights/environments/eventSources",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tsiee",
@@ -6177,7 +6177,7 @@
   {
     "id": 326,
     "resource": "TimeSeriesInsights/environments/referenceDataSets",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "tsier",
@@ -6196,7 +6196,7 @@
   {
     "id": 327,
     "resource": "Web/certificates",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "wbcer",
@@ -6215,7 +6215,7 @@
   {
     "id": 328,
     "resource": "Web/serverfarms",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "plan",
@@ -6234,7 +6234,7 @@
   {
     "id": 329,
     "resource": "Web/sites",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Static Web App",
     "ShortName": "stapp",
@@ -6253,7 +6253,7 @@
   {
     "id": 330,
     "resource": "Web/sites",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Web App",
     "ShortName": "app",
@@ -6272,7 +6272,7 @@
   {
     "id": 331,
     "resource": "Web/sites",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Function App",
     "ShortName": "func",
@@ -6291,7 +6291,7 @@
   {
     "id": 332,
     "resource": "Web/sites",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "App Service Environment",
     "ShortName": "ase",
@@ -6310,7 +6310,7 @@
   {
     "id": 333,
     "resource": "Web/sites",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "Azure Static Web Apps",
     "ShortName": "aswba",
@@ -6329,7 +6329,7 @@
   {
     "id": 334,
     "resource": "Web/sites/slots",
-    "optional": "UnitDept",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org,Function",
     "property": "",
     "ShortName": "slot",

@@ -251,10 +251,11 @@
                                             <div class="card @theme.ThemeStyle mb-3">
                                                 <h5 class="card-header text-white bg-secondary">
                                                     @resourceComponent.DisplayName
-                                                    @if (selectedResourceTypeOptional.ToLower().Contains("projappsvc"))
+                                                    @*@if (selectedResourceTypeOptional.ToLower().Contains("projappsvc"))
                                                     {
                                                         @((MarkupString)optional)
-                                                    }
+                                                    }*@
+                                                    @((MarkupString)optional)
                                                 </h5>
                                                 <div class="card card-body @theme.ThemeStyle">
                                                     <InputSelect title="@resourceComponent.DisplayName" class="@GetControlStyle()" ValueExpression="@(()=>selectedResourceProjAppSvc)"
@@ -273,10 +274,10 @@
                                             <div class="card @theme.ThemeStyle mb-3">
                                                 <h5 class="card-header text-white bg-secondary">
                                                     @resourceComponent.DisplayName
-                                                    @if (selectedResourceTypeOptional.ToLower().Contains("unitdept"))
+                                                    @*@if (selectedResourceTypeOptional.ToLower().Contains("unitdept"))
                                                     {
                                                         @((MarkupString)optional)
-                                                    }
+                                                    }*@
                                                 </h5>
                                                 <div class="card card-body @theme.ThemeStyle">
                                                     <InputSelect title="@resourceComponent.DisplayName" class="@GetControlStyle()" ValueExpression="@(()=>selectedResourceUnitDept)"
@@ -602,17 +603,17 @@
                                 break;
 
                             case "ResourceInstance":
-                                //if (selectedResourceInstance == null)
-                                //{
-                                //    boolFormDisabled = true;
-                                //}
-                                //else
-                                //{
-                                //    if (selectedResourceInstance == "")
-                                //    {
-                                //        boolFormDisabled = true;
-                                //    }
-                                //}
+                                if (selectedResourceInstance == null)
+                                {
+                                    boolFormDisabled = true;
+                                }
+                                else
+                                {
+                                    if (selectedResourceInstance == "")
+                                    {
+                                        boolFormDisabled = true;
+                                    }
+                                }
                                 break;
                             case "ResourceLocation":
                                 if (selectedResourceLocation == null)
