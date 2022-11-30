@@ -1104,7 +1104,7 @@
   {
     "id": 59,
     "resource": "Blueprint/blueprintAssignments",
-    "optional": "Org,UnitDept,Location,Instance",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Function",
     "property": "",
     "ShortName": "bpas",
@@ -1123,7 +1123,7 @@
   {
     "id": 60,
     "resource": "Blueprint/blueprints",
-    "optional": "Org,UnitDept,Location,Instance",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Function",
     "property": "",
     "ShortName": "bp",
@@ -1142,7 +1142,7 @@
   {
     "id": 61,
     "resource": "Blueprint/blueprints/artifacts",
-    "optional": "Org,UnitDept,Location,Instance",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Function",
     "property": "",
     "ShortName": "bpa",
@@ -1161,7 +1161,7 @@
   {
     "id": 62,
     "resource": "Blueprint/blueprints/versions",
-    "optional": "Org,UnitDept,Location,Instance",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Function",
     "property": "",
     "ShortName": "bpv",
@@ -1370,7 +1370,7 @@
   {
     "id": 73,
     "resource": "Compute/availabilitySets",
-    "optional": "UnitDept,Function",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "",
     "ShortName": "avail",
@@ -1389,7 +1389,7 @@
   {
     "id": 74,
     "resource": "Compute/cloudServices",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "cld",
@@ -2985,7 +2985,7 @@
   {
     "id": 158,
     "resource": "DocumentDB/databaseAccounts/sqlDatabases",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "cosmos",
@@ -3327,7 +3327,7 @@
   {
     "id": 176,
     "resource": "HybridCompute/machines",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "arcs",
@@ -3517,7 +3517,7 @@
   {
     "id": 186,
     "resource": "Kubernetes/connectedClusters",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "arck",
@@ -3954,7 +3954,7 @@
   {
     "id": 209,
     "resource": "Management/managementGroups",
-    "optional": "Org,UnitDept,ProjAppSvc,Environment",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Function,Instance,Location",
     "property": "",
     "ShortName": "mg",
@@ -4068,7 +4068,7 @@
   {
     "id": 215,
     "resource": "Migrate/assessmentProjects",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "migr",
@@ -4372,7 +4372,7 @@
   {
     "id": 231,
     "resource": "Network/networkInterfaces",
-    "optional": "UnitDept,Function",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "",
     "ShortName": "nic",
@@ -4391,7 +4391,7 @@
   {
     "id": 232,
     "resource": "Network/networkSecurityGroups",
-    "optional": "UnitDept,Function",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "",
     "ShortName": "nsg",
@@ -4486,7 +4486,7 @@
   {
     "id": 237,
     "resource": "Network/privateLinkServices",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "pl",
@@ -4505,7 +4505,7 @@
   {
     "id": 238,
     "resource": "Network/publicIPAddresses",
-    "optional": "UnitDept,Function",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "Org",
     "property": "",
     "ShortName": "pip",
@@ -4524,7 +4524,7 @@
   {
     "id": 239,
     "resource": "Network/publicIPPrefixes",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "ippre",
@@ -4581,7 +4581,7 @@
   {
     "id": 242,
     "resource": "Network/routeTables",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "rt",
@@ -4638,7 +4638,7 @@
   {
     "id": 245,
     "resource": "Network/trafficManagerProfiles",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "traf",
@@ -4999,7 +4999,7 @@
   {
     "id": 264,
     "resource": "Purview/accounts",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "pview",
@@ -5265,7 +5265,7 @@
   {
     "id": 278,
     "resource": "Search/searchServices",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "srch",
@@ -5930,7 +5930,7 @@
   {
     "id": 313,
     "resource": "StreamAnalytics/cluster",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "asa",
@@ -6044,7 +6044,7 @@
   {
     "id": 319,
     "resource": "Subscription/subscriptions",
-    "optional": "Org,UnitDept,ProjAppSvc,Instance",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "ResourceType,Function,Location",
     "property": "",
     "ShortName": "subcr",
@@ -6063,7 +6063,7 @@
   {
     "id": 320,
     "resource": "Synapse/workspaces",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "",
     "ShortName": "synw",
@@ -6082,7 +6082,7 @@
   {
     "id": 321,
     "resource": "Synapse/workspaces/sqlPools",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "Azure Synapse Analytics Spark Pool",
     "ShortName": "synsp",
@@ -6101,7 +6101,7 @@
   {
     "id": 322,
     "resource": "Synapse/workspaces/sqlPools",
-    "optional": "",
+    "optional": "ProjAppSvc,Instance",
     "exclude": "",
     "property": "Azure Synapse Analytics SQL Dedicated Pool",
     "ShortName": "syndp",
