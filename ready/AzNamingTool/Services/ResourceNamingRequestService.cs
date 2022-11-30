@@ -375,7 +375,7 @@ namespace AzureNamingTool.Services
                                         if (projappsvc == null)
                                         {
                                             valid = false;
-                                            sbMessage.Append(resourceType.Id + "," + "ResourceProjAppSvc value is invalid. ");
+                                            sbMessage.Append("ResourceProjAppSvc value is invalid. ");
                                         }
                                         break;
 
@@ -385,7 +385,7 @@ namespace AzureNamingTool.Services
                                         if (unitdept == null)
                                         {
                                             valid = false;
-                                            sbMessage.Append(resourceType.Id + "," + "ResourceUnitDept value is invalid. ");
+                                            sbMessage.Append("ResourceUnitDept value is invalid. ");
                                         }
                                         break;
 
@@ -445,7 +445,8 @@ namespace AzureNamingTool.Services
                                 if (!resourceType.Optional.ToLower().Contains(GeneralHelper.NormalizeName(component.Name, true)))
                                 {                                    
                                         valid = false;
-                                        sbMessage.Append(resourceType.Id + "," + component.Name + " value was not provided. ");                                    
+                                    sbMessage.Append("," + resourceType.Optional + ",");
+                                    sbMessage.Append(component.Name + " value was not provided. ");                                    
                                 }
                             }
                         }
@@ -462,7 +463,8 @@ namespace AzureNamingTool.Services
                                 if (!request.CustomComponents.ContainsKey(GeneralHelper.NormalizeName(component.Name, true)))
                                 {
                                         valid = false;
-                                        sbMessage.Append(resourceType.Id + "," + component.Name + " value was not provided. ");                                  
+                                    sbMessage.Append("," + resourceType.Optional + ",");
+                                    sbMessage.Append(component.Name + " value was not provided. ");                                  
                                 }
                                 else
                                 {
@@ -474,7 +476,8 @@ namespace AzureNamingTool.Services
                                         if (!resourceType.Optional.ToLower().Contains(GeneralHelper.NormalizeName(component.Name, true)))
                                         {
                                                 valid = false;
-                                                sbMessage.Append(resourceType.Id + "," + component.Name + " value was not provided. ");                                           
+                                            sbMessage.Append("," + resourceType.Optional + ",");
+                                            sbMessage.Append(component.Name + " value was not provided. ");                                           
                                         }
                                     }
                                     else
@@ -485,7 +488,7 @@ namespace AzureNamingTool.Services
                                         if (validcustomComponent == null)
                                         {
                                             valid = false;
-                                            sbMessage.Append(resourceType.Id + "," + component.Name + " value is not a valid custom component short name. ");
+                                            sbMessage.Append(component.Name + " value is not a valid custom component short name. ");
                                         }
                                         else
                                         {
@@ -508,7 +511,8 @@ namespace AzureNamingTool.Services
                                 if (!resourceType.Optional.ToLower().Contains(GeneralHelper.NormalizeName(component.Name, true)))
                                 {
                                         valid = false;
-                                        sbMessage.Append(resourceType.Id + "," + component.Name + " value was not provided. ");                                    
+                                    sbMessage.Append("," + resourceType.Optional + ",");
+                                    sbMessage.Append(component.Name + " value was not provided. ");                                    
                                 }
                             }
                         }
@@ -548,7 +552,7 @@ namespace AzureNamingTool.Services
                     sbMessage.Append((StringBuilder)namevalidation.Item3);
                 }
 
-
+                
                 if (valid)
                 {
                     GeneratedName generatedName = new GeneratedName()
