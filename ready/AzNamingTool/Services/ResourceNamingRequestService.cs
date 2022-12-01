@@ -444,8 +444,7 @@ namespace AzureNamingTool.Services
                                 // Check if the prop is optional
                                 if (!resourceType.Optional.ToLower().Contains(GeneralHelper.NormalizeName(component.Name, true)))
                                 {                                    
-                                        valid = false;
-                                    sbMessage.Append("," + resourceType.Optional + ",");
+                                    valid = false;                                    
                                     sbMessage.Append(component.Name + " value was not provided. ");                                    
                                 }
                             }
@@ -462,8 +461,7 @@ namespace AzureNamingTool.Services
                                 // Check if the custom compoment value was provided in the request
                                 if (!request.CustomComponents.ContainsKey(GeneralHelper.NormalizeName(component.Name, true)))
                                 {
-                                        valid = false;
-                                    sbMessage.Append("," + resourceType.Optional + ",");
+                                    valid = false;
                                     sbMessage.Append(component.Name + " value was not provided. ");                                  
                                 }
                                 else
@@ -475,8 +473,7 @@ namespace AzureNamingTool.Services
                                         // Check if the prop is optional
                                         if (!resourceType.Optional.ToLower().Contains(GeneralHelper.NormalizeName(component.Name, true)))
                                         {
-                                                valid = false;
-                                            sbMessage.Append("," + resourceType.Optional + ",");
+                                             valid = false;
                                             sbMessage.Append(component.Name + " value was not provided. ");                                           
                                         }
                                     }
@@ -510,8 +507,7 @@ namespace AzureNamingTool.Services
                                 // Check if the prop is optional
                                 if (!resourceType.Optional.ToLower().Contains(GeneralHelper.NormalizeName(component.Name, true)))
                                 {
-                                        valid = false;
-                                    sbMessage.Append("," + resourceType.Optional + ",");
+                                    valid = false;
                                     sbMessage.Append(component.Name + " value was not provided. ");                                    
                                 }
                             }
